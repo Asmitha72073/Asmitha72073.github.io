@@ -4,8 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .container{
+
+            background-color:lavenderblush;
+            display:flex;
+            height:500px;
+            justify-content: space-evenly;
+            align-items: end;
+        }
+        .box{
+            justify-content: space-around;
+            align-items: center;
+            width:500px;
+            margin:500px;
+            padding:5px;
+            background-color: lavenderblush;
+            transition: background-color 3s ease-in;
+        }
+        .box:hover{
+            background-color: beige;
+        }
+
+    </style>
 </head>
 <body>
+        <div class="box">
+            <h2>Login here</h2>
+            <p> username:<input type="text"></p>
+            <p>password:<input type="password"></p>
+            <p><button>login</button></p>
+        </div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+    </div>
     
 </body>
 </html>
